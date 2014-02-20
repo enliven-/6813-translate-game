@@ -1,0 +1,18 @@
+
+table tbody tr.wrong td {
+	color: red;
+}
+
+table tbody tr.wrong td:nth-child(2) {
+	text-decoration: line-through;
+}
+
+table tbody tr.correct td {
+	color: teal;
+}
+
+table tbody tr.correct td:nth-child(3) {
+	font: dingbats;
+}
+
+/*.ui-helper-hidden-accessible{display:none}*/

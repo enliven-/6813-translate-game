@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ready, Set, Translate !</title>
+    <link rel="stylesheet" href="foundation/css/foundation.css" />
+    <link rel="stylesheet" href="jquery/css/hot-sneaks/jquery-ui-1.10.4.custom.css" />
+
+    <link rel="stylesheet" href="translate_game.css" />
+
+    <script src="foundation/js/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+
+    <div>
+      <h3>Translate from <strong><span class="lang_from"></span></strong><span> to <strong><span class="lang_to"></span></strong></h3>
+    </div>
+
+    <div>
+	    <table>
+	      <thead>
+	        <th>Spanish</th>
+	        <th>English</th>
+	        <th>Answer</th>
+	      </thead>
+
+	      <tbody>
+	        <tr class="entry current">
+	          <td class="word">espejo</td>
+	          <td class="guess"><input type="text" placeholder="type here"></input></td>
+	          <td clas="result"><input id="check"type="submit" value="See Answer"></input></td>
+	        </tr>
+	        <tr class="entry correct">
+	          <td class="word">calabaza</td>
+	          <td class="guess">pumpkin</td>
+	          <td class="result">&#x2714</td>
+	        </tr>        
+	        <tr class="entry wrong">
+	          <td class="word">postmodernidad</td>
+	          <td class="guess">phone</td>
+	          <td class="result">postmodernism</td>
+	        </tr>
+	      </tbody>
+	    </table>
+    </div>
+  
+    <script src="foundation/js/vendor/jquery.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.4.custom.min.js"></script>
+
+    <script src="foundation/js/foundation.min.js"></script>
+    <script src="dicts.json"></script>
+    <script src="translate_game.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
