@@ -1,18 +1,19 @@
-
-table tbody tr.wrong td {
-	color: red;
+html {
+  overflow-y: scroll;
 }
 
-table tbody tr.wrong td:nth-child(2) {
-	text-decoration: line-through;
+tbody tr.wrong td {
+  color: red;
 }
 
-table tbody tr.correct td {
-	color: teal;
+tbody tr.wrong td:nth-child(2) {
+  text-decoration: line-through;
 }
 
-table tbody tr.correct td:nth-child(3) {
-	font: dingbats;
+tbody tr.correct td {
+  color: teal;
 }
 
-/*.ui-helper-hidden-accessible{display:none}*/
+tbody tr.correct td:nth-child(3) {
+  font: dingbats;
+}
