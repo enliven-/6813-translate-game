@@ -17,3 +17,7 @@ tbody tr.correct td {
 tbody tr.correct td:nth-child(3) {
   font: dingbats;
 }
+
+h3.heading {
+  margin-left: 10px;
+}

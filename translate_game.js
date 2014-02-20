@@ -32,12 +32,12 @@ $(function() {
 
   /* 
     only task is to get the next word, corresponding ans, and to update the appropriate 
-    places 
+    places, and return focus to textfield
   */
   var setup = function() {
     getNextWord();
     $("tr.current td.word").html(current_word);
-    $("tr.current td.guess input").val("");
+    $("tr.current td.guess input").val("").focus();
   }
 
 
